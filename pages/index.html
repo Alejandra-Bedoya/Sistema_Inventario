@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Sistema de Inventario</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="/js/redirect.js"></script>
+</head>
+<body>
+    <div id="redirect"> 
+        <button id="btn_redirect" onclick= window.location.href="../pages/clientes.html">Redirigir</button>
+    </div>
+
+</body>
+
+<!-- SISTEMA DE INVENTARIO
+
+Consolidado de existencia (unidades existentes)
+/* Orientado a productos en general (supermercado) */
+
+1. Categorias
+  a. Articulos del hogar
+  b. Ropa
+  c. Alimentación
+  d. Tecnología
+  e. Mascotas
+2. Registro de empleados
+  a. ID empleado
+  b. Nombre completo
+  c. ID sucursal 
+  d. Cargo
+  e. Telefono
+3. Detalle de articulos
+  a. ID articulo
+  b. Precio por unidad
+  c. Categoria
+  d. Fecha lote y fecha vencimiento (si aplica)
+  e. Nombre articulo
+4. Registro de sucursal
+  a. Nombre de sede: Nombre sucursal en ciudad
+  b. Dirección: Ciudad
+  c. NIT
+  d. Empleado lider
+  e. Empleados encargados
+5. Detalle factura
+  a. Datos sucursal (NIT, Nombre, Direccion)
+  b. Empleado (ID, Nombre)
+  c. Articulo (ID, Nombre, Precio x und, Categoria)
+  d. Metodo de pago (Tarjeta Deb/Cred, Efectivo)
+6. Cliente
+  a. ID (cedula)
+  b. Nombre
+  c. Direccion
+  d. Telefono
+  e. Email
